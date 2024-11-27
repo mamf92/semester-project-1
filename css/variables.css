@@ -14,23 +14,25 @@
     --color-black-transparent: #0D0D0DDD;
 
     /* Font families */
-    --font-heading: 'Lato', 'Arial Narrow Bold', sans-serif;
-    --font-body: 'DM Sans', 'Gill Sans', sans-serif;
+    --font-heading: 'Lexend Deca', 'Arial Narrow Bold', sans-serif;
+    --font-body: 'Quicksand', 'Gill Sans', sans-serif;
 
     /* Font weights */
     --font-weight-normal: 400;
     --font-weight-bold: 700;
+    --font-weight-semibold: 600;
 
     /* Text sizing */
     --heading-xlarge: 3em;
-    --heading-large: 2.5em;
-    --heading-medium: 2em;
-    --heading-small: 1.5em;
-    --heading-xsmall: 1em;
-    --body-large: 2em;
+    --heading-large: 2.2em;
+    --heading-medium: 2.25em;
+    --heading-small: 1.88em;
+    --heading-xsmall: 1.5em;
+
+    --body-large: 1.13em;
     --body-medium: 1em;
-    --body-small: 0.8em;
-    --body-xsmall: 0.5em;
+    --body-small: 0.88em;
+    --body-xsmall: 0.75em;
 
     /* Spacing */
     --padding-large: 2em;
@@ -42,8 +44,6 @@
     --margin-medium: 1em;
     --margin-small: 0.5em;
     --margin-xsmall: 0.2em;
-
-
 
     /* Section deviders */
     --devider-color: black;

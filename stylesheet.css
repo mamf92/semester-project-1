@@ -1,0 +1,32 @@
+@import url('css/reset.css');
+@import url('css/variables.css');
+@import url('css/components/header.css');
+@import url('css/components/footer.css');
+@import url('css/components/buttons.css');
+
+h1,
+h2,
+h3 {
+    font-family: var(--font-heading);
+}
+
+h1 {
+    font-size: var(--heading-medium);
+    font-weight: var(--font-weight-bold);
+}
+
+h2 {
+    font-size: var(--heading-small);
+    font-weight: var(--font-weight-bold);
+}
+
+h3 {
+    font-size: var(--heading-xsmall);
+    font-weight: var(--font-weight-semibold);
+}
+
+p,
+a {
+    font-family: var(--font-body);
+    font-size: var(--body-small);
+}

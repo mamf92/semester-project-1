@@ -1,0 +1,52 @@
+/* Base Button Styles */
+.button {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font-body);
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    padding: 12px 16px;
+    font-size: 16px;
+}
+
+.button.primary {
+    background-color: var(--color-grey);
+    color: var(--color-white);
+    background-image: url('/assets/images/icons/arrow-right.svg');
+    background-repeat: no-repeat;
+    background-position: center right 12px;
+    background-size: 0.83em;
+    padding-right: 40px;
+}
+
+.button.primary:hover {
+    background-color: var(--color-darkgrey);
+}
+
+/* Secondary Button */
+.button.secondary {
+    background-color: var(--color-darkgrey);
+    color: var(--color-white);
+    border: 1px solid var(--color-grey);
+}
+
+.button.secondary:hover {
+    background-color: var(--color-grey);
+    border: 1px solid var(--color-darkgrey);
+}
+
+/* Button Sizes */
+.button.medium {
+    padding: 8px 40px 12px 8px;
+    font-size: 16px;
+}
+
+.button.small {
+    padding: 8px 30px 12px 8px;
+    font-size: 14px;
+    background-position: center right 7px;
+    background-size: 0.67em;
+}
