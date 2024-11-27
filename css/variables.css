@@ -1,0 +1,51 @@
+:root {
+    /* Colors */
+    --color-black: #0D0D0D;
+    --color-darkgrey: #262626;
+    --color-grey: #595959;
+    --color-lightgrey: #8c8c8c;
+    --color-xlightgrey: #A6A6A6;
+    --color-white: #FFFFFF;
+    --color-funred: #D91A60;
+    --color-funpink: #F2137B;
+    --color-funpurple: #B532D9;
+    --color-funyellow: #FFBD00;
+    --color-white-transparent: #FFFFFFDD;
+    --color-black-transparent: #0D0D0DDD;
+
+    /* Font families */
+    --font-heading: 'Lato', 'Arial Narrow Bold', sans-serif;
+    --font-body: 'DM Sans', 'Gill Sans', sans-serif;
+
+    /* Font weights */
+    --font-weight-normal: 400;
+    --font-weight-bold: 700;
+
+    /* Text sizing */
+    --heading-xlarge: 3em;
+    --heading-large: 2.5em;
+    --heading-medium: 2em;
+    --heading-small: 1.5em;
+    --heading-xsmall: 1em;
+    --body-large: 2em;
+    --body-medium: 1em;
+    --body-small: 0.8em;
+    --body-xsmall: 0.5em;
+
+    /* Spacing */
+    --padding-large: 2em;
+    --padding-medium: 1em;
+    --padding-small: 0.5em;
+    --padding-xsmall: 0.2em;
+
+    --margin-large: 2em;
+    --margin-medium: 1em;
+    --margin-small: 0.5em;
+    --margin-xsmall: 0.2em;
+
+
+
+    /* Section deviders */
+    --devider-color: black;
+    --devider-spacing: 2em;
+}
