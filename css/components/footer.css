@@ -1,5 +1,4 @@
 .footer {
-    grid-area: footer;
     display: grid;
     width: 100%;
     padding: var(--padding-large);
@@ -11,6 +10,7 @@
         'copyright';
     background-color: var(--color-grey);
     color: var(--color-white);
+    grid-area: footer;
 }
 
 .follow {
@@ -132,3 +132,9 @@ a {
 .newsletter__button {
     align-self: flex-start;
 }
+
+/* Media queries */
+/* Tablet 768 */
+/* Laptop 1024 */
+/* Desktop 1200 */
+/* Desktop XL 1440 */

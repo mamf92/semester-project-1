@@ -3,6 +3,20 @@
 @import url('css/components/header.css');
 @import url('css/components/footer.css');
 @import url('css/components/buttons.css');
+@import url('css/components/burger-button.css');
+
+
+/* Global styling */
+body {
+    display: grid;
+    grid-template-rows: auto auto auto 1fr auto;
+    grid-template-areas:
+        'skip2main'
+        'header'
+        'breadcrumbs'
+        'main'
+        'footer';
+}
 
 h1,
 h2,
@@ -26,7 +40,38 @@ h3 {
 }
 
 p,
-a {
+a,
+label,
+input {
     font-family: var(--font-body);
     font-size: var(--body-small);
+}
+
+/* Accessibility */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+.skip2main {
+    grid-area: skip2main;
+}
+
+.skip2main:focus {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    width: auto;
+    height: auto;
+    padding: 1rem;
+    background-color: #000;
+    color: #fff;
+    z-index: 100;
+    clip: auto;
 }

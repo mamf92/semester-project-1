@@ -4,6 +4,7 @@
     justify-content: center;
     align-items: center;
     font-family: var(--font-body);
+    line-height: 1;
     border: none;
     cursor: pointer;
     text-decoration: none;
@@ -17,7 +18,7 @@
     color: var(--color-white);
     background-image: url('/assets/images/icons/arrow-right.svg');
     background-repeat: no-repeat;
-    background-position: center right 12px;
+    background-position: center right 16px;
     background-size: 0.83em;
     padding-right: 40px;
 }
@@ -45,8 +46,8 @@
 }
 
 .button.small {
-    padding: 8px 30px 12px 8px;
+    padding: 8px 30px 8px 12px;
     font-size: 14px;
-    background-position: center right 7px;
+    background-position: top 11px right 12px;
     background-size: 0.67em;
 }
