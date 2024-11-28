@@ -5,7 +5,7 @@ header {
     background-color: var(--color-black);
     min-width: 100%;
     max-width: 100%;
-    min-height: 10vh;
+    height: 4.5em;
     padding: 16px 12px 16px 16px;
     grid-area: header;
 }
@@ -24,6 +24,7 @@ header {
 }
 
 .logo--text {
+    font-weight: var(--font-weight-bold);
     flex-shrink: 0;
     align-self: center;
 }
@@ -51,7 +52,7 @@ header a:hover {
 
 .nav,
 #menu-checkbox,
-.header__cta {
+a.header__cta {
     display: none;
 }
 
@@ -61,7 +62,7 @@ header a:hover {
     align-items: center;
     justify-content: space-between;
     position: absolute;
-    top: 10vh;
+    top: 72px;
     right: 0px;
     width: 100%;
     background-color: var(--color-black);
