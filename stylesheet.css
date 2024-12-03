@@ -4,6 +4,9 @@
 @import url('css/components/footer.css');
 @import url('css/components/buttons/buttons.css');
 @import url('css/components/buttons/burger-button.css');
+@import url('css/components/sections/hero.css');
+@import url('css/components/cards/card-s.css');
+@import url('css/pages/index.css');
 
 
 /* Global styling */
@@ -16,6 +19,14 @@ body {
         'breadcrumbs'
         'main'
         'footer';
+}
+
+main {
+    grid-area: main;
+}
+
+section {
+    min-height: 50vh;
 }
 
 h1,
@@ -45,6 +56,12 @@ label,
 input {
     font-family: var(--font-body);
     font-size: var(--body-small);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
 
 a .current {

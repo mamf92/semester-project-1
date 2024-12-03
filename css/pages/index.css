@@ -1,0 +1,22 @@
+/* Events section */
+.events-cta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-darkgrey);
+
+}
+
+.events-cta__heading {
+    color: var(--color-white);
+    align-self: flex-start;
+}
+
+.event-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: var(--gap-medium);
+}

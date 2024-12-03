@@ -1,0 +1,38 @@
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-white);
+
+    background-image: linear-gradient(#0D0D0D90, #0D0D0D90),
+        url(/assets/images/scott-webb-102825.webp);
+    background-size: cover;
+    min-height: 85vh;
+}
+
+.hero__content {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-xlarge);
+    padding-left: var(--padding-large);
+    padding-right: var(--padding-large);
+    max-width: 1028px;
+}
+
+.hero__text {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-large);
+    max-width: 720px;
+}
+
+.hero__text__p {
+    font-size: var(--body-large);
+    line-height: 28px;
+}
+
+.hero__cta {
+    display: flex;
+    gap: var(--gap-medium);
+    max-width: 720px;
+}
