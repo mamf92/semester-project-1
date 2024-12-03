@@ -25,10 +25,6 @@ main {
     grid-area: main;
 }
 
-section {
-    min-height: 50vh;
-}
-
 h1,
 h2,
 h3 {

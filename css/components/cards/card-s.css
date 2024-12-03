@@ -1,8 +1,7 @@
 .card-s {
     display: flex;
     flex-direction: column;
-    /* width: 245px;
-    height: 480px; */
+    max-width: 330px;
     align-items: center;
     background-color: var(--color-black);
     border: 1px solid var(--color-black);
@@ -10,11 +9,11 @@
 
 .card-s__image {
     display: flex;
+    justify-content: center;
+    height: 246px;
 }
 
 .card-s__image img {
-    width: 245px;
-    height: 246px;
     object-fit: cover;
 }
 
@@ -41,3 +40,11 @@
 .card-s__heading {
     font-size: var(--heading-xxsmall);
 }
+
+/* Media queries */
+/* Laptop */
+/* @media (min-width: 1024px) {
+    .card-s {
+        width: 245px;
+    }
+} */
