@@ -1,22 +1,48 @@
-/* Events section */
-.events-cta {
+/* Sections */
+.section__header {
+    display: flex;
+    flex-direction: column;
+    min-width: 328px;
+    max-width: 330px;
+    margin: 0 auto 0 auto;
+}
+
+/* Events section and Education section */
+.events-cta,
+.education-cta {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: var(--color-grey);
-
 }
 
-.events-cta__heading {
+/* .education-cta__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 286px;
+    max-width: 330px;
+    margin: 0 auto 0 auto;
+} */
+
+.events-cta__heading,
+.education-cta__heading {
     color: var(--color-white);
     align-self: flex-start;
-    padding-left: var(--padding-medium);
-    padding-top: var(--padding-xsmall);
-
 }
 
-.event-cards {
+.education-cta__text--short {
+    font-size: var(--body-medium);
+    color: var(--color-white);
+}
+
+.education-cta__text--long {
+    display: none;
+}
+
+.event-cards,
+.education-cards {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -25,31 +51,116 @@
     padding: var(--padding-medium);
 }
 
+/* Exhibitions section */
+.exhibitions-cta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-darkgrey);
+
+}
+
+.exhibitions-cta__heading {
+    color: var(--color-white);
+}
+
+.exhibition-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: var(--gap-medium);
+    padding: var(--padding-medium);
+}
+
+
 /* Media queries */
+/* Tablet 768px */
+@media (min-width: 768px) {
+    .section__header {
+        max-width: 736px;
+    }
+
+    .events-cta__heading,
+    .exhibitions-cta__heading,
+    .education-cta__heading {
+        font-size: var(--heading-xlarge);
+    }
+
+    .events-cta__heading {
+        width: 672px;
+    }
+
+    .education-cta__header {
+        width: 672px;
+    }
+
+    .exhibitions-cta__heading {
+        width: 736px;
+    }
+
+    .education-cta__text--short {
+        display: none;
+    }
+
+    .education-cta__text--long {
+        display: initial;
+        font-size: var(--body-medium);
+        color: var(--color-white);
+    }
+
+
+
+}
+
 /* Laptop 1024px */
 @media (min-width: 1024px) {
-    .event-cards {
+
+    .education-cta__header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 1024px;
+        padding: var(--padding-medium);
+        margin: 0 auto 0 auto;
+    }
+
+    .section__header {
+        max-width: 1024px;
+    }
+
+    .events-cta__heading,
+    .education-cta__header,
+    .exhibitions-cta__heading {
+        width: 1024px;
+        padding-left: 16px;
+    }
+
+    .event-cards,
+    .education-cards {
         flex-wrap: nowrap;
         max-width: 1024px;
     }
 
-    .events-cta__heading {
-        width: 1024px;
-        margin-left: auto;
-        margin-right: auto;
-        text-align: left;
+    .exhibition-cards {
+        gap: var(--gap-large);
     }
 
 }
 
 /* Laptop L 1200px */
 @media (min-width: 1200px) {
-    .event-cards {
+
+    .event-cards,
+    .education-cta__header,
+    .education-cards {
         padding-left: 0;
         padding-right: 0;
     }
 
-    .events-cta__heading {
+    .events-cta__heading,
+    .exhibitions-cta__heading {
         padding-left: 0;
     }
 }

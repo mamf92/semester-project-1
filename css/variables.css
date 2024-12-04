@@ -23,6 +23,8 @@
     --font-weight-semibold: 600;
 
     /* Text sizing */
+    --heading-xxlarge: 3.5em;
+    /* 56px */
     --heading-xlarge: 3em
         /*48px*/
     ;

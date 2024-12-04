@@ -18,7 +18,7 @@
     color: var(--color-white);
     background-image: url('/assets/icons/arrow-right.svg');
     background-repeat: no-repeat;
-    background-position: center right 16px;
+    background-position: top 18px right 16px;
     background-size: 0.83em;
     padding-right: 40px;
 }
@@ -32,6 +32,10 @@
     background-color: var(--color-darkgrey);
     color: var(--color-white);
     border: 1px solid var(--color-grey);
+    background-image: url('/assets/icons/arrow-right.svg');
+    background-repeat: no-repeat;
+    background-position: top 12px right 16px;
+    background-size: 0.83em;
 }
 
 .button.secondary:hover {
@@ -41,7 +45,8 @@
 
 /* Button Sizes */
 .button.medium {
-    padding: 8px 40px 12px 8px;
+    padding: 8px 40px 8px 8px;
+    background-position: top 14px right 16px;
     font-size: 16px;
 }
 
