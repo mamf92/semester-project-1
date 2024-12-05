@@ -11,26 +11,20 @@
     margin: 0 auto 0 auto;
 }
 
-/* Opening hours */
-.opening-hours {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--color-darkgrey);
-}
-
-.opening-hours__heading {
+.section__heading {
     color: var(--color-white);
     align-self: flex-start;
     padding-top: var(--padding-medium);
     padding-bottom: var(--padding-small);
 }
 
-.opening-hours__text {
-    color: var(--color-white);
-    padding-bottom: var(--padding-large);
-
+/* Opening hours section */
+.opening-hours {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-darkgrey);
 }
 
 .opening-hours__cards {
@@ -54,5 +48,56 @@
 }
 
 .opening-hours__specific p {
+    font-size: var(--body-large);
+}
+
+/* Getting here section */
+.getting-here {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-grey);
+}
+
+.getting-here__cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: var(--gap-medium);
+    padding: var(--padding-medium);
+}
+
+/* Prices section */
+.prices {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-darkgrey);
+}
+
+.prices__cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: var(--gap-medium);
+    padding: var(--padding-medium);
+}
+
+.prices__specific {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-medium);
+    min-width: 328px;
+    max-width: 330px;
+    margin: 0 auto 0 auto;
+    padding-top: var(--padding-large);
+    color: var(--color-white);
+}
+
+.prices__specific p {
     font-size: var(--body-large);
 }
