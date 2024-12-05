@@ -63,6 +63,11 @@
 }
 
 /* Button arrow */
+.button.never-arrow {
+    background-image: none;
+    padding-right: 16px;
+}
+
 @media (max-width: 375px) {
     .button.no-arrow {
         background-image: none;

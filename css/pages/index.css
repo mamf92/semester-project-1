@@ -34,6 +34,8 @@
 .education-cta__heading {
     color: var(--color-white);
     align-self: flex-start;
+    padding-top: var(--padding-small);
+    padding-bottom: 0px;
 }
 
 .education-cta__text--short {
@@ -67,6 +69,7 @@
 
 .exhibitions-cta__heading {
     color: var(--color-white);
+    padding-top: var(--padding-medium);
 }
 
 .exhibition-cards {
@@ -84,12 +87,6 @@
 @media (min-width: 768px) {
     .section__header {
         max-width: 736px;
-    }
-
-    .events-cta__heading,
-    .exhibitions-cta__heading,
-    .education-cta__heading {
-        font-size: var(--heading-xlarge);
     }
 
     .events-cta__heading {
@@ -112,6 +109,7 @@
         display: initial;
         font-size: var(--body-medium);
         color: var(--color-white);
+        padding-top: var(--padding-medium);
     }
 
 
