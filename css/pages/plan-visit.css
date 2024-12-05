@@ -1,0 +1,58 @@
+@import url('/css/components/sections/hero-small.css');
+@import url('/css/components/cards/card-s.css');
+@import url('/css/components/cards/card-m.css');
+
+/* Sections */
+.section__header {
+    display: flex;
+    flex-direction: column;
+    min-width: 328px;
+    max-width: 330px;
+    margin: 0 auto 0 auto;
+}
+
+/* Opening hours */
+.opening-hours {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-darkgrey);
+}
+
+.opening-hours__heading {
+    color: var(--color-white);
+    align-self: flex-start;
+    padding-top: var(--padding-medium);
+    padding-bottom: var(--padding-small);
+}
+
+.opening-hours__text {
+    color: var(--color-white);
+    padding-bottom: var(--padding-large);
+
+}
+
+.opening-hours__cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: var(--gap-medium);
+    padding: var(--padding-medium);
+}
+
+.opening-hours__specific {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-medium);
+    min-width: 328px;
+    max-width: 330px;
+    margin: 0 auto 0 auto;
+    padding-top: var(--padding-large);
+    color: var(--color-white);
+}
+
+.opening-hours__specific p {
+    font-size: var(--body-large);
+}

@@ -1,3 +1,7 @@
+@import url('/css/components/sections/hero.css');
+@import url('/css/components/cards/card-s.css');
+@import url('/css/components/cards/card-l.css');
+
 /* Sections */
 .section__header {
     display: flex;
