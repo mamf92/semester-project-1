@@ -244,7 +244,7 @@
     }
 
     /* Mirrored variant */
-    .card-l__image--left {
+    .card-l__image.left {
         display: flex;
         max-width: 50%;
         max-height: 100%;
@@ -253,7 +253,7 @@
         order: 1;
     }
 
-    .card-l__content--right {
+    .card-l__content.right {
         display: flex;
         flex-direction: column;
         width: 50%;

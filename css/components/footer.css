@@ -166,5 +166,16 @@ a {
 }
 
 /* Laptop 1024 */
+
 /* Desktop 1200 */
+
 /* Desktop XL 1440 */
+@media (min-width: 1440px) {
+    .footer {
+        grid-template-columns: 208px 1.8fr 2fr 2fr 208px;
+        grid-template-areas:
+            '. contact links follow .'
+            '. copyright copyright copyright .';
+    }
+
+}
