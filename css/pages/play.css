@@ -1,0 +1,107 @@
+@import url('/css/components/cards/card-s.css');
+@import url('/css/components/cards/card-m.css');
+@import url('/css/components/cards/card-l.css');
+@import url('/css/components/cards/card-xl.css');
+
+/* Global sections styling  */
+.section__header {
+    display: flex;
+    min-width: 328px;
+    max-width: 330px;
+    margin: 0 auto 0 auto;
+}
+
+.section__heading {
+    color: var(--color-white);
+    padding-top: var(--padding-medium);
+    padding-bottom: var(--padding-small);
+}
+
+.video--large,
+.video--small {
+    max-width: 330px;
+}
+
+
+
+/* Videos sections */
+.videos--robots {
+    background-color: var(--color-black);
+}
+
+.videos--optical {
+    background-color: var(--color-darkgrey);
+}
+
+.videos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.videos__content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: var(--gap-medium);
+    padding: var(--padding-medium);
+}
+
+.videos__content__extra {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: var(--gap-medium);
+}
+
+.videos__content__extra .card-s__image {
+    height: auto;
+}
+
+
+/* Media queries */
+/* Tablet 768px */
+@media (min-width: 768px) {
+    .section__header {
+        display: flex;
+        min-width: 736px;
+        max-width: none;
+        margin: 0 auto 0 auto;
+    }
+
+    .card-m {
+        max-width: 736px;
+    }
+
+    .card-m__image {
+        height: 500px;
+    }
+
+    .videos__content__extra .card-s__image {
+        min-height: 200px;
+    }
+
+    .video--large {
+        max-width: 736px;
+        width: 736px;
+        height: auto;
+        min-height: 500px;
+    }
+}
+
+/* Tablet 1024px */
+@media (min-width: 1024px) {
+    .section__header {
+        display: flex;
+        min-width: 992px;
+        max-width: none;
+        margin: 0 auto 0 auto;
+    }
+
+    .videos__content__extra {
+        max-width: 992px;
+    }
+}

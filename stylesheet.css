@@ -11,6 +11,10 @@
 
 
 /* Global styling */
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     display: grid;
     grid-template-rows: auto auto auto 1fr auto;
@@ -61,8 +65,8 @@ img {
     display: block;
 }
 
-a .current {
-    text-decoration: underline;
+.current {
+    text-decoration: underline 0.15em rgb(254, 254, 254, 1);
 }
 
 /* Accessibility */
