@@ -1,0 +1,230 @@
+@import url('/css/components/sections/hero-small.css');
+@import url('/css/components/cards/card-s.css');
+@import url('/css/components/cards/card-m.css');
+@import url('/css/components/cards/card-l.css');
+@import url('/css/components/cards/card-xl.css');
+
+/* Global sections styling  */
+.events,
+.exhibitions {
+    padding-bottom: var(--padding-medium);
+}
+
+.section__header {
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - 4em);
+    max-width: 1024px;
+    margin: 0 auto 0 auto;
+}
+
+.section__heading {
+    color: var(--color-white);
+    padding-top: var(--padding-medium);
+    padding-bottom: var(--padding-small);
+}
+
+/* Events */
+.events {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-darkgrey);
+}
+
+.events__heading {
+    color: var(--color-white);
+    padding-top: var(--padding-small);
+    padding-bottom: 0px;
+}
+
+.events__text--short {
+    font-size: var(--body-medium);
+    color: var(--color-white);
+}
+
+.events__text--long {
+    display: none;
+}
+
+.event-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: var(--gap-medium);
+    padding: var(--padding-medium);
+}
+
+/* Exhibitions */
+.exhibitions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-grey);
+}
+
+.exhibition-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: var(--gap-medium);
+    padding: var(--padding-medium);
+}
+
+.extra-exhibitions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: var(--gap-medium);
+    padding: var(--padding-medium);
+}
+
+/* Activities */
+/* Prices section */
+.activities {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-darkgrey);
+}
+
+.activities__cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: normal;
+    gap: var(--gap-medium);
+    padding: var(--padding-medium);
+}
+
+.activities__specific {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-medium);
+    min-width: 328px;
+    max-width: 330px;
+    margin: 0 auto 0 auto;
+    padding-top: var(--padding-large);
+    color: var(--color-white);
+}
+
+.activities__specific p {
+    font-size: var(--body-large);
+}
+
+
+/* Media queries */
+/* Tablet 768px */
+@media (min-width: 768px) {
+    .card-m {
+        max-width: calc(50% - 1em);
+        height: 100%;
+    }
+
+    .education-cta__text--short {
+        display: none;
+    }
+
+    .education-cta__text--long {
+        display: initial;
+        font-size: var(--body-medium);
+        color: var(--color-white);
+        padding-top: var(--padding-medium);
+    }
+
+    /* Activities section */
+    .activities .card-s__content {
+        padding: var(--padding-medium);
+    }
+
+    .shows-text {
+        grid-area: shows-text;
+    }
+
+    .shows-card {
+        grid-area: shows-card;
+    }
+
+    .tours-text {
+        grid-area: tours-text;
+    }
+
+    .tours-card {
+        grid-area: tours-card;
+    }
+
+    .camps-text {
+        grid-area: camps-text;
+    }
+
+    .camps-card {
+        grid-area: camps-card;
+    }
+
+    .activities__cards {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, auto);
+        justify-content: center;
+        grid-template-areas:
+            'shows-text tours-text camps-text'
+            'shows-card tours-card camps-card';
+    }
+
+    .activities__specific {
+        gap: var(--gap-medium);
+        min-width: 0px;
+        width: 100%;
+        max-width: 100%;
+        margin-left: auto;
+        padding-top: var(--padding-small);
+        padding-bottom: var(--padding-small);
+    }
+
+    .activities__specific p {
+        font-size: var(--body-small);
+    }
+}
+
+/* Laptop 1024px */
+@media (min-width: 1024px) {
+    .extra-exhibitions {
+        height: 610px;
+    }
+
+    .card-m__image {
+        height: 350px;
+    }
+
+    .event-cards {
+        flex-wrap: nowrap;
+        max-width: 1024px;
+    }
+
+    .exhibition-cards {
+        gap: var(--gap-large);
+    }
+
+    .extra-exhibitions {
+        max-width: 1024px;
+        padding: 0px;
+    }
+}
+
+/* Laptop L 1200px */
+@media (min-width: 1200px) {
+    .section__header {
+        padding-left: 0;
+    }
+
+    .event-cards {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}

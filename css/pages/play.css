@@ -142,6 +142,10 @@
     .videos__content__extra {
         max-width: 992px;
     }
+
+    .play .activities__list li {
+        background-color: var(--color-funpurple);
+    }
 }
 
 /* Desktop 1440 */

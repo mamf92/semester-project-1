@@ -44,13 +44,3 @@
 .card-m__description {
     font-size: var(--body-small);
 }
-
-
-
-/* Media queries */
-/* Laptop */
-/* @media (min-width: 1024px) {
-    .card-s {
-        width: 245px;
-    }
-} */

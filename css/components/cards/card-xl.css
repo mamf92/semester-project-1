@@ -107,7 +107,6 @@ a.card-xl__cta--large,
 
     .card-xl__main-image {
         display: flex;
-        max-width: 50%;
         max-height: 100%;
         justify-content: center;
         height: 100%;
@@ -172,7 +171,7 @@ a.card-xl__cta--large,
         width: 50%;
         justify-self: flex-start;
         flex-direction: column;
-        gap: var(--gap-xlarge);
+        gap: var(--gap-medium);
         padding: 0;
         order: 1;
     }
@@ -221,6 +220,8 @@ a.card-xl__cta--large,
 
     .card-xl__description--long {
         display: flex;
+        flex-direction: column;
+        gap: var(--gap-xsmall);
         font-size: var(--body-large);
         order: 3;
     }
@@ -243,7 +244,7 @@ a.card-xl__cta--large,
 
     .activities__list li {
         font-size: var(--body-xsmall);
-        background-color: var(--color-funpurple);
+        background-color: var(--color-grey);
         padding: var(--padding-small);
         list-style: none;
     }
