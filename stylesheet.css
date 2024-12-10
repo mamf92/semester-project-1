@@ -54,7 +54,8 @@ h3 {
 p,
 a,
 label,
-input {
+input,
+li {
     font-family: var(--font-body);
     font-size: var(--body-small);
 }

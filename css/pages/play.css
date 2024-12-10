@@ -6,15 +6,32 @@
 /* Global sections styling  */
 .section__header {
     display: flex;
-    min-width: 328px;
+    min-width: 318px;
     max-width: 330px;
     margin: 0 auto 0 auto;
 }
 
 .section__heading {
-    color: var(--color-white);
+    color: var(--color-funpink);
     padding-top: var(--padding-medium);
     padding-bottom: var(--padding-small);
+}
+
+.videos .card-m__pre-heading,
+.videos .card-s__date,
+.ysc-cta .card-xl__badge,
+.ysc-cta .card-xl__exclamation,
+.ysc-cta .card-xl__message {
+    color: var(--color-funyellow);
+    border-color: var(--color-funyellow);
+}
+
+.play h3 {
+    color: var(--color-funpink);
+}
+
+.play p {
+    color: var(--color-funteal);
 }
 
 .video--large,
@@ -57,9 +74,25 @@
     gap: var(--gap-medium);
 }
 
-.videos__content__extra .card-s__image {
-    height: auto;
+
+.card-s__image.tiktok {
+    height: 300px;
 }
+
+/* Youth Science Club section */
+.ysc-cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-grey);
+}
+
+.play .card-xl__date,
+.play .card-xl__activities p {
+    color: var(--color-white);
+}
+
+
 
 
 /* Media queries */
@@ -72,6 +105,10 @@
         margin: 0 auto 0 auto;
     }
 
+    .card-s {
+        max-width: 359px;
+    }
+
     .card-m {
         max-width: 736px;
     }
@@ -80,7 +117,11 @@
         height: 500px;
     }
 
-    .videos__content__extra .card-s__image {
+    .card-s__image.tiktok {
+        height: 300px;
+    }
+
+    .card-s__image.small {
         min-height: 200px;
     }
 
@@ -92,16 +133,63 @@
     }
 }
 
-/* Tablet 1024px */
+/* Laptop 1024px */
 @media (min-width: 1024px) {
     .section__header {
-        display: flex;
-        min-width: 992px;
-        max-width: none;
-        margin: 0 auto 0 auto;
+        min-width: 734px;
     }
 
     .videos__content__extra {
         max-width: 992px;
+    }
+}
+
+/* Desktop 1440 */
+@media (min-width: 1440px) {
+    .section__header {
+        min-width: 1016px;
+    }
+
+    .videos__content {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .video--large {
+        max-width: 400px;
+        width: 400px;
+        height: auto;
+        min-height: 500px;
+    }
+
+    .video--small {
+        max-width: 240px;
+        width: 240px;
+    }
+
+    .card-m {
+        max-width: 500px;
+    }
+
+    .videos__content__extra {
+        max-width: 500px;
+    }
+
+    .card-s {
+        max-width: 240px;
+    }
+
+    .card-s__image.tiktok {
+        height: 246px;
+        max-width: 238px;
+    }
+
+    .card-s__image.tiktok iframe {
+        height: 246px;
+        max-width: 238px;
+    }
+
+    .card-s__content {
+        padding: 12px;
     }
 }
