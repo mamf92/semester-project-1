@@ -6,8 +6,8 @@
 .section__header {
     display: flex;
     flex-direction: column;
-    min-width: 328px;
-    max-width: 330px;
+    width: calc(100% - 2em);
+    max-width: 1024px;
     margin: 0 auto 0 auto;
 }
 
@@ -20,15 +20,6 @@
     align-items: center;
     background-color: var(--color-grey);
 }
-
-/* .education-cta__header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    min-width: 286px;
-    max-width: 330px;
-    margin: 0 auto 0 auto;
-} */
 
 .events-cta__heading,
 .education-cta__heading {

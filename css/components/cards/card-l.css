@@ -1,7 +1,6 @@
 .card-l {
     display: flex;
     flex-direction: column;
-    min-width: 286px;
     max-width: 330px;
     align-items: center;
     background-color: var(--color-black);
@@ -23,12 +22,12 @@
     flex-direction: column;
     gap: var(--gap-large);
     padding: var(--padding-large);
+    width: 100%;
 }
 
 .card-l__text {
     display: flex;
     flex-direction: column;
-    width: 280px;
     color: var(--color-white);
     gap: var(--gap-xsmall);
     padding: var(--padding);

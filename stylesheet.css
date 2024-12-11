@@ -55,7 +55,8 @@ p,
 a,
 label,
 input,
-li {
+li,
+textarea {
     font-family: var(--font-body);
     font-size: var(--body-small);
 }

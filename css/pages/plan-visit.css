@@ -5,8 +5,9 @@
 /* Sections */
 .section__header {
     display: flex;
-    min-width: 328px;
-    max-width: 330px;
+    flex-direction: column;
+    width: calc(100% - 2em);
+    max-width: 1024px;
     margin: 0 auto 0 auto;
 }
 
@@ -38,7 +39,6 @@
     display: flex;
     flex-direction: column;
     gap: var(--gap-medium);
-    min-width: 328px;
     max-width: 330px;
     margin: 0 auto 0 auto;
     padding-top: var(--padding-large);
@@ -89,7 +89,6 @@
     display: flex;
     flex-direction: column;
     gap: var(--gap-medium);
-    min-width: 328px;
     max-width: 330px;
     margin: 0 auto 0 auto;
     padding-top: var(--padding-large);

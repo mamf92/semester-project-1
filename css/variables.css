@@ -68,6 +68,10 @@
     --padding-medium: 1em
         /*16px*/
     ;
+    --padding-sm: 0.75em
+        /*12px*/
+    ;
+
     --padding-small: 0.5em
         /*8px*/
     ;

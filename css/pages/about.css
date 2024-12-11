@@ -1,0 +1,226 @@
+@import url('/css/components/sections/hero.css');
+@import url('/css/components/cards/card-s.css');
+@import url('/css/components/cards/card-xl.css');
+
+.section__header {
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - 2em);
+    max-width: 1024px;
+    margin: 0 auto 0 auto;
+}
+
+.section__heading {
+    color: var(--color-white);
+    padding-top: var(--padding-medium);
+    padding-bottom: var(--padding-small);
+}
+
+/* Hero section */
+.hero__text__p--long {
+    display: none;
+}
+
+/* About section */
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-grey);
+    gap: var(--gap-medium);
+    padding: var(--padding-large) 0px;
+}
+
+.about .card-xl__description {
+    display: initial;
+}
+
+/* Contact us section */
+.contact-us {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-grey);
+    padding: var(--padding-medium) 0px;
+}
+
+.section__header.narrow {
+    max-width: 512px;
+}
+
+.contact-us .section__header p {
+    padding-bottom: var(--padding-medium);
+}
+
+.contact-us__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1024px;
+    background-color: var(--color-black);
+}
+
+.contact-us__text--short {
+    color: var(--color-white);
+}
+
+.contact-us__text--long {
+    display: none;
+}
+
+.contact-us__form {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-black);
+    width: calc(100% - 4em);
+    max-width: 512px;
+    margin: 0 auto 0 auto;
+    padding-bottom: var(--padding-large);
+}
+
+.contact-us__form input {
+    padding: var(--padding-sm);
+    border: 3px solid var(--color-darkgreen);
+    font-size: var(--body-large);
+}
+
+.contact-us__form input:focus {
+    outline: none;
+    border: 2px solid var(--color-grey);
+}
+
+.contact-us__form label {
+    color: var(--color-white);
+    padding-top: var(--padding-large);
+    padding-bottom: var(--padding-xsmall);
+}
+
+.contact-us textarea {
+    font-size: var(--body-large);
+    height: 15em;
+    padding: 1em;
+}
+
+.contact-us textarea:focus {
+    outline: none;
+    border: 3px solid var(--color-grey);
+}
+
+.contact-us__form__terms {
+    font-size: var(--body-small);
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    padding-top: var(--padding-medium);
+    padding-bottom: var(--body-large);
+}
+
+label.accept-terms {
+    padding: 0px;
+}
+
+
+/* Get involved CTA section */
+.get-involved-cta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-darkgrey);
+}
+
+.get-involved-cta__text--long {
+    display: none;
+}
+
+.get-involved-cta-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: var(--gap-medium);
+    padding: var(--padding-medium);
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+    .about {
+        background-color: var(--color-black);
+    }
+
+    .hero__text__p--short {
+        display: none;
+    }
+
+    .hero__text__p--long {
+        display: initial;
+    }
+
+    /* About us - Tablet 768px */
+    .about {
+        padding-top: var(--padding-large);
+        padding-bottom: var(--padding-large);
+    }
+
+
+    .about .card-xl__description {
+        display: none;
+    }
+
+    .about .card-xl__description--long {
+        display: initial;
+    }
+
+    /* Contact us - Tablet 768px */
+    .contact-us__text--short {
+        display: none;
+    }
+
+    .contact-us__text--long {
+        display: initial;
+        color: var(--color-white);
+    }
+
+    .contact-us__container {
+        width: calc(100% - 4em);
+
+    }
+
+    .contact-us__form input,
+    .contact-us__form textarea {
+        font-size: var(--body-medium);
+    }
+
+    /* Get involved CTA section - Tablet 768px */
+    .events__text--long {
+        display: initial;
+        font-size: var(--body-medium);
+        color: var(--color-white);
+    }
+}
+
+/* Laptop 1024px */
+@media (min-width: 1024px) {
+    .get-involved-cta-cards {
+        flex-wrap: nowrap;
+        max-width: 1024px;
+    }
+}
+
+/* Laptop L 1200px */
+@media (min-width: 1200px) {
+    .section__header {
+        padding-left: 0;
+    }
+
+    .get-involved-cta-cards {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+}
