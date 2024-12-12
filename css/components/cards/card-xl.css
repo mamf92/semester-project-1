@@ -47,8 +47,12 @@
     font-size: var(--heading-xxsmall);
 }
 
+.card-xl__description {
+    display: flex;
+    font-size: var(--body-small);
+}
+
 .card-xl__badge,
-.card-xl__description,
 .card-xl__description--long,
 .card-xl__social,
 a.card-xl__cta--large,
@@ -334,7 +338,7 @@ a.card-xl__cta--large,
         max-width: 50%;
         justify-self: flex-start;
         flex-direction: column;
-        gap: var(--gap-xlarge);
+        gap: var(--gap-medium);
         padding: 0;
         order: 2;
     }

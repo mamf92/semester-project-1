@@ -1,0 +1,21 @@
+@import url('/css/components/sections/hero-small.css');
+@import url('/css/components/cards/card-xl.css');
+
+.support,
+.volunteer,
+.internship {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: var(--padding-medium) 0px;
+}
+
+.support,
+.internship {
+    background-color: var(--color-darkgrey);
+}
+
+.volunteer {
+    background-color: var(--color-grey);
+}
