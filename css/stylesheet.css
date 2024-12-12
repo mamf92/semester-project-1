@@ -1,9 +1,9 @@
-@import url('css/reset.css');
-@import url('css/variables.css');
-@import url('css/components/header.css');
-@import url('css/components/footer.css');
-@import url('css/components/buttons/buttons.css');
-@import url('css/components/buttons/burger-button.css');
+@import url('reset.css');
+@import url('variables.css');
+@import url('components/header.css');
+@import url('components/footer.css');
+@import url('components/buttons/buttons.css');
+@import url('components/buttons/burger-button.css');
 /* @import url('css/components/sections/hero.css');
 @import url('css/components/cards/card-s.css');
 @import url('css/components/cards/card-l.css');
