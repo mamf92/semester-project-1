@@ -43,10 +43,10 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
     gap: var(--gap-medium);
     padding: var(--padding-medium);
 }
+
 
 /* Exhibitions section */
 .exhibitions-cta {

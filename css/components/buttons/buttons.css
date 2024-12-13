@@ -43,6 +43,12 @@
     border: 1px solid var(--color-darkgrey);
 }
 
+.button.read-more {
+    display: flex;
+    flex-direction: column;
+    background-image: url('../../../assets/icons/arrow-down.svg');
+}
+
 /* Button Sizes */
 .button.medium {
     padding: 8px 40px 8px 8px;

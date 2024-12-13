@@ -16,6 +16,7 @@
 
 .card-xl__main-image img {
     object-fit: cover;
+    width: 100%;
 }
 
 .card-xl__extra-image-container {

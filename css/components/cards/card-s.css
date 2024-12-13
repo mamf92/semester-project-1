@@ -42,10 +42,16 @@
     font-size: var(--heading-xxsmall);
 }
 
-/* Media queries */
-/* Laptop */
-/* @media (min-width: 1024px) {
-    .card-s {
-        width: 245px;
-    }
-} */
+details:last-of-type summary {
+    list-style: none;
+}
+
+details:last-of-type summary::-webkit-details-marker {
+    display: none;
+}
+
+details p {
+    padding: var(--padding-medium);
+    color: var(--color-white);
+    background-color: var(--color-grey);
+}
