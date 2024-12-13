@@ -36,10 +36,9 @@
 
 .video--large,
 .video--small {
+    width: 100%;
     max-width: 330px;
 }
-
-
 
 /* Videos sections */
 .videos--robots {
