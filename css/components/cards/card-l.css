@@ -42,8 +42,12 @@
     font-size: var(--heading-xxsmall);
 }
 
+.card-l__description {
+    display: flex;
+    font-size: var(--body-small);
+}
+
 .card-l__badge,
-.card-l__description,
 .card-l__description--long,
 .card-l__social,
 a.card-l__cta--large {

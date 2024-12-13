@@ -1,6 +1,6 @@
-@import url('/css/components/sections/hero.css');
-@import url('/css/components/cards/card-s.css');
-@import url('/css/components/cards/card-l.css');
+@import url('../components/sections/hero.css');
+@import url('../components/cards/card-s.css');
+@import url('../components/cards/card-l.css');
 
 /* Sections */
 .section__header {

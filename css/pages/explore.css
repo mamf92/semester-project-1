@@ -1,8 +1,8 @@
-@import url('/css/components/sections/hero-small.css');
-@import url('/css/components/cards/card-s.css');
-@import url('/css/components/cards/card-m.css');
-@import url('/css/components/cards/card-l.css');
-@import url('/css/components/cards/card-xl.css');
+@import url('../components/sections/hero-small.css');
+@import url('../components/cards/card-s.css');
+@import url('../components/cards/card-m.css');
+@import url('../components/cards/card-l.css');
+@import url('../components/cards/card-xl.css');
 
 /* Global sections styling  */
 .events,
