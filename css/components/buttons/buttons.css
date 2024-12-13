@@ -68,6 +68,10 @@
     background-color: var(--color-funpink);
 }
 
+.button.red {
+    background-color: var(--color-funred);
+}
+
 /* Button arrow */
 .button.never-arrow {
     background-image: none;
