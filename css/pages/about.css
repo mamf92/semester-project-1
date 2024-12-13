@@ -110,7 +110,9 @@
 }
 
 .contact-us__form__terms {
+    color: var(--color-white);
     font-size: var(--body-small);
+    padding-top: var(--padding-medium);
 }
 
 .contact-us__form__terms a {
