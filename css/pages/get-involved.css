@@ -1,5 +1,5 @@
-@import url('/css/components/sections/hero-small.css');
-@import url('/css/components/cards/card-xl.css');
+@import url('../components/sections/hero-small.css');
+@import url('../components/cards/card-xl.css');
 
 .support,
 .volunteer,
