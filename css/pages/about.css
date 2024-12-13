@@ -113,6 +113,10 @@
     font-size: var(--body-small);
 }
 
+.contact-us__form__terms a {
+    text-decoration: underline;
+}
+
 .checkbox-container {
     display: flex;
     align-items: center;
