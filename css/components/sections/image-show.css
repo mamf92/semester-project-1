@@ -1,0 +1,35 @@
+.illusions {
+    background-color: var(--color-black);
+}
+
+.image-show {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-black);
+    gap: var(--gap-large);
+    padding: var(--padding-large);
+    max-width: 1024px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.image-show h1,
+.image-show p {
+    color: var(--color-white);
+}
+
+.mobile-only {
+    align-self: flex-start;
+}
+
+.image-show img {
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .mobile-only {
+        display: none;
+    }
+}
