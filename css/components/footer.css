@@ -81,6 +81,18 @@
     gap: 24px;
 }
 
+.contact-info a {
+    text-decoration-line: underline;
+    text-decoration-thickness: 0.11em;
+    text-decoration-color: rgba(254, 254, 254, 0);
+    transition: text-decoration-color 1s;
+}
+
+.contact-info a:hover {
+    text-decoration-color: rgba(254, 254, 254, 1);
+
+}
+
 .contact-info__address,
 .contact-info__contact {
     display: flex;
@@ -94,6 +106,18 @@
     background-color: var(--color-black);
     padding: 20px 24px 40px 24px;
     grid-area: links;
+}
+
+.links a {
+    text-decoration-line: underline;
+    text-decoration-thickness: 0.11em;
+    text-decoration-color: rgba(254, 254, 254, 0);
+    transition: text-decoration-color 1s;
+}
+
+.links a:hover {
+    text-decoration-color: rgba(254, 254, 254, 1);
+
 }
 
 .links__visit,

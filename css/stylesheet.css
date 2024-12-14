@@ -63,7 +63,9 @@ img {
 }
 
 .current {
-    text-decoration: underline 0.15em rgb(254, 254, 254, 1);
+    text-decoration-line: underline;
+    text-decoration-thickness: 0.11em;
+    text-decoration-color: rgb(254, 254, 254, 1);
 }
 
 /* Accessibility */
