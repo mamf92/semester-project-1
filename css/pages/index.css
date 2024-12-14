@@ -47,7 +47,6 @@
     padding: var(--padding-medium);
 }
 
-
 /* Exhibitions section */
 .exhibitions-cta {
     display: flex;
@@ -55,7 +54,6 @@
     justify-content: center;
     align-items: center;
     background-color: var(--color-darkgrey);
-
 }
 
 .exhibitions-cta__heading {
@@ -71,7 +69,6 @@
     gap: var(--gap-medium);
     padding: var(--padding-medium);
 }
-
 
 /* Media queries */
 /* Tablet 768px */
@@ -102,14 +99,10 @@
         color: var(--color-white);
         padding-top: var(--padding-medium);
     }
-
-
-
 }
 
 /* Laptop 1024px */
 @media (min-width: 1024px) {
-
     .education-cta__header {
         display: flex;
         flex-direction: column;
@@ -139,7 +132,6 @@
     .exhibition-cards {
         gap: var(--gap-large);
     }
-
 }
 
 /* Laptop L 1200px */
