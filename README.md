@@ -1,50 +1,89 @@
-# Semester Project 1
+# 🧪 Community Science Museum – Explore together
 
-The final project of the first semester. The brief: Design an engaging, informative, and user-friendly website for a new interactive science museum opening in your city.
+<img src="https://github.com/mamf92/semester-project-1/blob/main/assets/images/ccm-banner-large.png?raw=true" alt="Community Science Museum Banner" width="600"/>
 
-## Project Overview
+---
 
-**Community Science Museum Project**
+**Community Science Museum** is a fictional interactive museum website designed to excite children and be informative for parents who wants to plan a visit. The project was developed as the **semester 1 final assignment** in my front-end development studies.
 
-Design an engaging, informative, and user-friendly website for a new interactive science museum opening in your city.
+---
 
-### The Brief
+## 📋 Description
 
-An interactive science museum called the **Community Science Museum** is opening in your town/city. Its core target audience is primary and middle school children (ages 7-15) and families with young children.
+The brief was to design a responsive, informative, and user-friendly website that encourages families and school-age children (7–15 years) to visit a new interactive science museum opening in town. The site features clear navigation, engaging visuals, and a structure that appeals to both kids and adults.
 
-The website should be informative and engaging, encouraging viewers to visit the museum. It should also be responsive and easy to use on various devices. Peer/Teacher review is recommended.
+**Project Goals:**
+- Appeal to children and families
+- Use semantic HTML and responsive design
+- Prioritize accessibility (WCAG) and SEO
+- Ensure fast loading with optimized images
 
-You have been provided with media assets such as text and images (see link under Resources). You must decide how these will be used in terms of presentation, hierarchy, and design. If any assets are too large, remember to optimize file sizes to ensure smooth loading and a polished user experience.
+**Site Features:**
+- 🔬 Multiple themed pages (4–6)
+- 📱 Fully responsive across devices
+- 🧩 Designed with accessibility in mind
+- ⚡ Optimized performance and fast loading
+- 🧭 Clear and engaging navigation
 
-You have the choice to work on this individually or as part of a team of two.
+---
 
-## Requirements
+## ⚙️ Built With
+**Frontend:**
+- [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
+- [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
+- [VS Code](https://code.visualstudio.com/) ![VS Code](https://img.shields.io/badge/VSCode-007ACC?style=flat&logo=visualstudiocode&logoColor=white)
 
-- The site must have a design that appeals to the target audience.
-- The site must have **at least 4-6 pages**.
-- **Compositional principles**, **typography**, and **colour schemes** must be considered.
-- HTML should be **semantic** and neatly indented.
-- External CSS stylesheets should follow the **DRY principle**.
-- The site should **load quickly**, with image sizes capped at **200kb**.
-- **WCAG principles** must be applied to hierarchy, navigation, and colour usage.
-- The site must be **responsive**, attractive, and user-friendly across devices.
-- **SEO practices** such as meta tags and alt text must be implemented.
+**Project Management:**  
+- GitHub Projects  
+- Figma for design and prototyping  
 
-## User Stories
+---
 
-- **As a visitor**, I want the website to appeal to children so they feel encouraged to visit the museum with their families.
-- **As a user**, I want to browse through the deployed site without any issues.
-- **As a visitor**, I want the website to adapt seamlessly to any device, so it is easy to interact with on mobile, tablet, or desktop.
-- **As a visitor**, I want at least 4-6 pages with clear navigation.
-- **As a visitor**, I want the site to load quickly, even on slow connections, so I can easily access it.
-- **As a user with disabilities**, I want the website to follow accessibility guidelines so I can navigate independently.
-- **As the site owner**, I want good SEO to rank higher in search engines and attract more visitors.
-- **As a developer**, I want the GitHub repository public to allow for collaboration and code review.
+## 🚀 Getting Started
 
-## Submission Guidelines
+### 🔧 Installing
 
-The following must be added to your PDF report (use the template provided) and submit on Moodle:
+1. Clone the repository:
+```bash
+git clone https://github.com/mamf92/semester-project-1.git
+```
 
-- A **live version link** of the site.
-- A link to the **site’s prototype**.
-- A link to the **project planning board** and **GitHub repository**.
+2. Open the `index.html` file directly in your browser or use a local server like Live Server (VS Code extension).
+
+---
+
+### 🌐 Live Demo
+
+Check out the deployed site here:  
+👉 [https://mamf92.github.io/semeser-project-1/](https://mamf92.github.io/semester-project-1/)
+
+---
+
+## 🧭 User Stories
+
+- **As a visitor**, I want the website to appeal to children so they feel encouraged to visit the museum with their families.  
+- **As a user**, I want the site to adapt to all devices.  
+- **As a visitor**, I want smooth navigation through at least 4–6 pages.  
+- **As a user with disabilities**, I want accessibility features so I can navigate easily.  
+- **As the site owner**, I want SEO features to boost visibility.  
+- **As a developer**, I want a clear GitHub repo for collaboration and review.
+
+---
+
+## 👤 Contact
+
+- [LinkedIn – Martin Fischer](https://www.linkedin.com/in/mamf92/)  
+- [GitHub – @mamf92](https://github.com/mamf92)
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+## 🙏 Acknowledgments
+
+- Most placeholder content and media were provided by Noroff
+- Extra image files are from FreePik.com 
