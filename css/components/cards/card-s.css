@@ -1,7 +1,6 @@
 .card-s {
     display: flex;
     flex-direction: column;
-    max-width: 330px;
     align-items: center;
     background-color: var(--color-black);
     border: 1px solid var(--color-black);
@@ -10,12 +9,13 @@
 .card-s__image {
     display: flex;
     justify-content: center;
-    height: 246px;
+    width: 100%;
 }
 
 .card-s__image img {
     object-fit: cover;
     width: 100%;
+    aspect-ratio: 1 / 1;
 }
 
 .card-s__content {
@@ -23,6 +23,7 @@
     flex-direction: column;
     gap: var(--gap-large);
     padding: var(--padding-large);
+    justify-content: space-between;
 }
 
 .card-s__text {
@@ -54,4 +55,26 @@ details p {
     padding: var(--padding-medium);
     color: var(--color-white);
     background-color: var(--color-grey);
+}
+
+@media (min-width: 550px) {
+    .card-s {
+        width: calc(50% - (0.5 * var(--gap-medium)));
+    }
+}
+
+
+@media (min-width: 800px) {
+    .card-s {
+        width: calc(50% - (var(--gap-xsmall) * 2));
+    }
+}
+
+
+
+@media (min-width: 830px) {
+    .card-s {
+        width: calc(33% - (var(--gap-xsmall) * 2));
+    }
+
 }
