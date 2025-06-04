@@ -71,6 +71,12 @@
 }
 
 /* Media queries */
+@media (min-width: 550px) {
+    .card-s {
+        width: calc(50% - (0.5 * var(--gap-medium)));
+    }
+}
+
 /* Tablet 768px */
 @media (min-width: 768px) {
     .section__header {
@@ -99,6 +105,19 @@
         color: var(--color-white);
         padding-top: var(--padding-medium);
     }
+}
+
+@media (min-width: 800px) {
+    .card-s {
+        width: calc(50% - (var(--gap-xsmall) * 2));
+    }
+}
+
+@media (min-width: 830px) {
+    .card-s {
+        width: calc(33% - (var(--gap-xsmall) * 2));
+    }
+
 }
 
 /* Laptop 1024px */
