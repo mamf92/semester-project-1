@@ -1,7 +1,6 @@
 .card-l {
     display: flex;
     flex-direction: column;
-    max-width: 330px;
     align-items: center;
     background-color: var(--color-black);
     border: 1px solid var(--color-black);
@@ -62,19 +61,19 @@ a.card-l__cta--large {
 
 
 /* Media queries */
-/* Tablet 764px */
-@media (min-width: 768px) {
+
+/* Mobile 500px */
+@media (min-width: 500px) {
     .card-l {
         display: flex;
         flex-direction: row;
-        gap: 32px;
-        min-width: 700px;
+        gap: var(--gap-small);
         max-width: 980px;
         height: 450px;
         align-items: center;
         background-color: var(--color-black);
         border: 1px solid var(--color-black);
-        padding: var(--padding-large)
+        padding: var(--padding-medium)
     }
 
     .card-l__content {
@@ -82,17 +81,15 @@ a.card-l__cta--large {
         max-width: 50%;
         justify-self: flex-start;
         flex-direction: column;
-        gap: var(--gap-xlarge);
+        gap: var(--gap-large);
         padding: 0;
     }
 
     .card-l__text {
         display: flex;
         flex-direction: column;
-        width: 280px;
         color: var(--color-white);
         gap: var(--gap-medium);
-        padding: var(--padding);
     }
 
     .card-l__date {
@@ -128,9 +125,7 @@ a.card-l__cta--large {
 
     .card-l__cta {
         display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        gap: 8px
+        gap: var(--gap-medium);
     }
 
     .card-l__cta details {
@@ -161,6 +156,26 @@ a.card-l__cta--large {
         flex-direction: column;
         gap: var(--gap-large);
         padding: 0;
+    }
+}
+
+/* Tablet 764px */
+@media (min-width: 768px) {
+    .card-l {
+        display: flex;
+        flex-direction: row;
+        gap: 32px;
+        min-width: 700px;
+    }
+
+    .card-l__text {
+        width: 280px;
+        gap: var(--gap-medium);
+    }
+
+    .card-l__cta {
+        flex-direction: row;
+        flex-wrap: nowrap;
     }
 }
 

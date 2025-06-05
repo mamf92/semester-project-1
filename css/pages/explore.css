@@ -4,47 +4,7 @@
 @import url('../components/cards/card-l.css');
 @import url('../components/cards/card-xl.css');
 @import url('../components/sections/info-section.css');
-
-
-/* Global sections styling  */
-.events,
-.exhibitions {
-    padding-bottom: var(--padding-medium);
-}
-
-/* Events */
-.events {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--color-darkgrey);
-}
-
-.events__heading {
-    color: var(--color-white);
-    padding-top: var(--padding-small);
-    padding-bottom: 0px;
-}
-
-.events__text--short {
-    font-size: var(--body-medium);
-    color: var(--color-white);
-}
-
-.events__text--long {
-    display: none;
-}
-
-.event-cards {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: stretch;
-    gap: var(--gap-medium);
-    padding: var(--padding-medium);
-}
-
+@import url('../components/sections/card-s-section.css');
 
 /* Exhibitions */
 .exhibitions {
@@ -53,6 +13,7 @@
     justify-content: center;
     align-items: center;
     background-color: var(--color-grey);
+    padding-bottom: var(--padding-medium);
 }
 
 .exhibition-cards {
@@ -74,11 +35,10 @@
 }
 
 /* Media queries */
-
 /* Tablet 768px */
 @media (min-width: 768px) {
     .card-m {
-        max-width: calc(50% - 1em);
+        max-width: calc(50% - (0.5 * var(--gap-medium)));
         height: 100%;
     }
 }
@@ -90,7 +50,7 @@
     }
 
     .card-m__image {
-        height: 350px;
+        min-height: 350px;
     }
 
     .event-cards {

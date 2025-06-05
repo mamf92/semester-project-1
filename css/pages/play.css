@@ -37,7 +37,7 @@
 .video--large,
 .video--small {
     width: 100%;
-    max-width: 330px;
+    aspect-ratio: 1 / 1;
 }
 
 /* Videos sections */
@@ -73,10 +73,16 @@
     gap: var(--gap-medium);
 }
 
-
-.card-s__image.tiktok {
-    height: 300px;
+.card-m {
+    max-width: 100%;
 }
+
+.videos__content__main .card-m__image {
+    height: 100%;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+}
+
 
 /* Youth Science Club section */
 .ysc-cta {
@@ -92,6 +98,17 @@
 }
 
 /* Media queries */
+@media (min-width: 550px) {
+    .card-s {
+        width: calc(50% - (0.5 * var(--gap-medium)));
+    }
+
+    .videos__content__main .card-m__image {
+        height: 32.25rem;
+        width: 100%;
+    }
+}
+
 /* Tablet 768px */
 @media (min-width: 768px) {
     .section__header {
@@ -113,10 +130,6 @@
         height: 500px;
     }
 
-    .card-s__image.tiktok {
-        height: 300px;
-    }
-
     .card-s__image.small {
         min-height: 200px;
     }
@@ -129,7 +142,7 @@
     }
 }
 
-/* Laptop 1024px */
+/* Laptop 1024px
 @media (min-width: 1024px) {
     .section__header {
         min-width: 734px;
@@ -142,22 +155,35 @@
     .play .activities__list li {
         background-color: var(--color-funpurple);
     }
-}
+} */
 
 /* Desktop 1440 */
-@media (min-width: 1440px) {
+@media (min-width: 1024px) {
     .section__header {
-        min-width: 1016px;
+        min-width: 1024px;
     }
 
     .videos__content {
         padding-left: 0;
         padding-right: 0;
+        width: 1024px;
+    }
+
+    .videos__content__main,
+    .videos__content__extra {
+        width: calc(50% - (var(--gap-small)));
+    }
+
+    .videos__content__main {
+        align-self: flex-start;
+    }
+
+    .card-m a {
+        width: 100%;
     }
 
     .video--large {
-        max-width: 400px;
-        width: 400px;
+        width: 100%;
         height: auto;
         min-height: 500px;
     }
@@ -165,14 +191,6 @@
     .video--small {
         max-width: 240px;
         width: 240px;
-    }
-
-    .card-m {
-        max-width: 500px;
-    }
-
-    .videos__content__extra {
-        max-width: 500px;
     }
 
     .card-s {
