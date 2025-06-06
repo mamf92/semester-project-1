@@ -1,6 +1,7 @@
 @import url('../components/sections/hero.css');
 @import url('../components/cards/card-s.css');
 @import url('../components/cards/card-xl.css');
+@import url('../components/sections/card-s-section.css');
 
 .section__header {
     display: flex;
@@ -132,25 +133,8 @@ label.accept-terms {
 
 
 /* Get involved CTA section */
-.get-involved-cta {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.card-s-section {
     background-color: var(--color-darkgrey);
-}
-
-.get-involved-cta__text--long {
-    display: none;
-}
-
-.get-involved-cta-cards {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: var(--gap-medium);
-    padding: var(--padding-medium);
 }
 
 /* Tablet */
@@ -200,32 +184,12 @@ label.accept-terms {
     .contact-us__form textarea {
         font-size: var(--body-medium);
     }
-
-    /* Get involved CTA section - Tablet 768px */
-    .events__text--long {
-        display: initial;
-        font-size: var(--body-medium);
-        color: var(--color-white);
-    }
-}
-
-/* Laptop 1024px */
-@media (min-width: 1024px) {
-    .get-involved-cta-cards {
-        flex-wrap: nowrap;
-        max-width: 1024px;
-    }
 }
 
 /* Laptop L 1200px */
 @media (min-width: 1200px) {
     .section__header {
         padding-left: 0;
-    }
-
-    .get-involved-cta-cards {
-        padding-left: 0;
-        padding-right: 0;
     }
 
 }
