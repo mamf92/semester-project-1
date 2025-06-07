@@ -1,6 +1,6 @@
 # 🧪 Community Science Museum – Explore together
 
-<img src="https://github.com/mamf92/semester-project-1/blob/main/assets/images/ccm-banner-large.png?raw=true" alt="Community Science Museum Banner" width="600"/>
+![Community Science Museum Banner](https://github.com/mamf92/semester-project-1/blob/main/assets/images/ccm-banner-narrow.png?raw=true)
 
 ---
 
